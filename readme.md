@@ -23,4 +23,4 @@ Para instalar as dependências e iniciar o servidor:
 A aplicação está configurada para ouvir na porta 3000, mas pode ser alterada no arquivo "server.js".
 
 ## Exercícios Bônus de Banco de Dados
-As soluções dos exercícios estão na pasta "Exercícios de Bando de Dados (BÔNUS)". Utilizei o MySQL para desenvolver e testar as queries.
+As soluções dos exercícios estão na pasta "Exercícios de Banco de Dados (BÔNUS)". Utilizei o MySQL para desenvolver e testar as queries.
