@@ -26,7 +26,7 @@ router.post("/store", {
       for (naverId of navers) {
         // Insere uma nova relação project-naver para cada naver no array
         const naver = await Naver.query(trx).findById(naverId);
-        await Project.relatedQuery("navers", trx).for(insertedProject.id).relate(naverId);
+        await Project.relatedQuery("navers", trx).for(insertedProject.id).relate(naver);
       }
       await trx.commit();
     } catch (err) {
