@@ -9,6 +9,8 @@ O sistema proposto foi desenvolvido utilizando o framework Koa, com as bibliotec
 ### APIs
 Disponibilizei as configurações do Insomnia para testar as APIs no arquivo "APIs-Insomnia.json", pronto para ser importado.
 
+Segue o link para a documentação: (https://probbc.github.io/teste-estagio-naveteam/)
+
 ### Instruções
 As dependências utilizadas para desenvolver o sistema estão no arquivo "package.json"
 
