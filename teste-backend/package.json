@@ -1,0 +1,23 @@
+{
+  "name": "teste-backend",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido para o teste de estágio back-end da nave.rs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "Gabriel Barbosa Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.95.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-joi-router": "^7.0.0",
+    "objection": "^2.2.14",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
