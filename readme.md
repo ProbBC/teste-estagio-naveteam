@@ -6,6 +6,8 @@ Os exercícios do primeiro desafio foram resolvidos no codesandbox: (https://cod
 ## Desafio de back-end
 O sistema proposto foi desenvolvido utilizando o framework Koa, com as bibliotecas Objection e Knex para abstração da camada de dados. O banco de dados foi criado usando SQLite3, para facilitar e agilizar a instalação e os testes do sistema. Toda a aplicação se encontra na pasta "teste-backend".
 
+O projeto já possui um banco de dados SQLite3 com as tabelas criadas e sem registros, portanto, não é necessário realizar as migrations do Knex.
+
 ### APIs
 Disponibilizei as configurações do Insomnia para testar as APIs no arquivo "APIs-Insomnia.json", pronto para ser importado.
 
